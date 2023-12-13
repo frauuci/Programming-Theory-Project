@@ -17,10 +17,7 @@ public class GameManager : MonoBehaviour
     int score = 0;
     float spawnRate = 2.0f;
     private int timeScale = 1;
-    //List<string> frogList = new List<string>() { "frog", "kangaroo", "grasshoper" };
-    //List<string> birdList = new List<string>() { "eagle", "sparrow", "crow"};
-    //List<string> rabbitList = new List<string>() { "dog", "cat", "tiger"};
-
+   
 
     List<Enum> popupText = new List<Enum>();
     // Start is called before the first frame update
