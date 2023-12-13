@@ -52,12 +52,13 @@ public class GameManager : MonoBehaviour
             spawnTwxt.text = popupText[idx].ToString();
         }
     }
-   
+    // ABSTRACTION   
     public void AddScore(int scoreToAdd)
     {
         score += scoreToAdd;
         scoreText.text = $"Score: {score}";
     }
+    // ENCAPSULATION
     private void GamePause()
     {
         if (timeScale == 1)

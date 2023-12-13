@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//INHERITANCE
 public class Frog : Animal
 {
     Rigidbody animalRb;
@@ -14,6 +14,7 @@ public class Frog : Animal
         groundHeight = transform.position.y; 
         animalRb = GetComponent<Rigidbody>();
     }
+    // POLYMORPHISM
     void Pingpong()
     {
 

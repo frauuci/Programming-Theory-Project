@@ -20,6 +20,7 @@ public class Animal:MonoBehaviour
         gameMgr = GameObject.Find("GameManager").GetComponent<GameManager>();
         spawnTwxt = GameObject.Find("SpawnText").GetComponent<TextMeshProUGUI>();
     }
+    // ENCAPSULATION
     public float Speed
     {
         get { return _speed; }

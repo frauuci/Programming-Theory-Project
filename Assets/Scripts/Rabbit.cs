@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//INHERITANCE
 public class Rabbit : Animal
 {
     Rigidbody animalRb;
@@ -11,7 +11,7 @@ public class Rabbit : Animal
         Speed = 1f;
         animalRb = GetComponent<Rigidbody>();
     }
-
+    // POLYMORPHISM
     public override void Walk()
     {
         animalRb.AddForce(WalkingForce(), ForceMode.Impulse);

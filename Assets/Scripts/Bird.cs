@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//INHERITANCE
 public class Bird : Animal
 {
     public GameObject wallLeft;
@@ -19,6 +19,7 @@ public class Bird : Animal
         isFlyRight = false;
         animalRb = GetComponent<Rigidbody>();
     }
+    // POLYMORPHISM
     private void Fly()
     {
         Vector3 wallPosition = wallLeft.transform.position;
